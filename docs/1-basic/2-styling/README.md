@@ -76,4 +76,4 @@ https://cssbattle.dev/
 
 今回はCSSを使ってHTMLの見た目を装飾する方法を学びました。 CSSには多くのプロパティがあり、様々な装飾が可能です。
 
-[次の章](../2-interaction)ではJavaScriptを使ってインタラクションを学びます。
+[次の章](../3-interaction/README.md)ではJavaScriptを使ってインタラクションを学びます。

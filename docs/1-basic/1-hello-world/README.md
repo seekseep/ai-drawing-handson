@@ -62,4 +62,4 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/br
 
 今回はHTMLの基本として、"Hello World" を表示する方法を学びました。
 HTMLには多くのタグがあり、様々な表現が可能です。
-[次の章](../1-styling)ではCSSを使って装飾を学びます。
+[次の章](../2-styling/README.md)ではCSSを使って装飾を学びます。
