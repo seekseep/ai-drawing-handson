@@ -22,6 +22,6 @@
 
 内容は以下の通りです。
 
-- 1. [Hello World](./1-hello-world/README.md)
-- 2. [装飾](./2-styling/README.md)
-- 3. [インタラクション](./3-interaction/README.md)
+1. [Hello World](./1-hello-world/README.md)
+2. [装飾](./2-styling/README.md)
+3. [インタラクション](./3-interaction/README.md)
