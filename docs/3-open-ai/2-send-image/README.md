@@ -103,7 +103,7 @@ HTMLは第1段階と同じです（変更なし）。
 ### 2. JavaScriptファイルを更新する ([main.js](./examples/2/main.js))
 
 ```javascript
-const OPENAI_API_KEY = 'YOUR_API_KEY_HERE'; // 当日APIキーに置き換える
+const OPENAI_API_KEY = 'YOUR_API_KEY_HERE';
 
 const dogImage = document.getElementById('dogImage');
 const birdImage = document.getElementById('birdImage');

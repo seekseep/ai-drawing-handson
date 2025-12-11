@@ -126,7 +126,7 @@ fishImage.addEventListener('click', () => {
 evaluateButton.addEventListener('click', async () => {
   console.log('評価ボタンがクリックされました');
 
-  const apiKey = 'YOUR_API_KEY_HERE'; // 当日APIキーに置き換える
+  const apiKey = 'YOUR_API_KEY_HERE';
 
   const imageDataUrl = canvas.toDataURL('image/png');
 

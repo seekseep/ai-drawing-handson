@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = 'API_KEY'; // 当日APIキーに置き換える
+const OPENAI_API_KEY = 'API_KEY';
 
 const descriptionInput = document.getElementById('descriptionInput');
 const generateButton = document.getElementById('generateButton');
@@ -28,47 +28,17 @@ generateButton.addEventListener('click', async () => {
       messages: [
         {
           role: 'user',
-          content: `${description}のプロフィールを生成してください`
+          content: `${description}のプロフィール（名前、年齢、出身地、好きなもの）をJSON形式で生成してください`
         }
-      ],
-      response_format: {
-        type: 'json_schema',
-        json_schema: {
-          name: 'person_profile',
-          strict: true,
-          schema: {
-            type: 'object',
-            properties: {
-              name: {
-                type: 'string',
-                description: '名前'
-              },
-              age: {
-                type: 'number',
-                description: '年齢'
-              },
-              hometown: {
-                type: 'string',
-                description: '出身地'
-              },
-              favorites: {
-                type: 'array',
-                description: '好きなもののリスト',
-                items: {
-                  type: 'string'
-                }
-              }
-            },
-            required: ['name', 'age', 'hometown', 'favorites'],
-            additionalProperties: false
-          }
-        }
-      }
+      ]
     })
   });
 
   const data = await response.json();
-  const result = JSON.parse(data.choices[0].message.content);
+  const aiMessage = data.choices[0].message.content;
+
+  // JSONっぽい文字列をパースする（エラーが起きる可能性あり）
+  const result = JSON.parse(aiMessage);
 
   showResult(result);
 });

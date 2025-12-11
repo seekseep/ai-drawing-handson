@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = 'API_KEY'; // 当日APIキーに置き換える
+const OPENAI_API_KEY = 'API_KEY';
 
 const messageInput = document.getElementById('messageInput');
 const sendButton = document.getElementById('sendButton');
