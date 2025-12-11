@@ -10,12 +10,12 @@
 
 ## 必要な環境
 
-- テキストエディタ（VS Code、メモ帳など）
-- Webブラウザ（Chrome、Firefox、Safariなど）
+- テキストエディタ(VS Code、メモ帳など)
+- Webブラウザ(Chrome、Firefox、Safariなど)
 
 ## ハンズオンの進め方
 
-このハンズオンは3つの章で構成されています。**第1章から順番に進めてください。**
+このハンズオンは4つの章で構成されています。**第1章から順番に進めてください。**
 
 ### 第1章: Webフロントエンドの基本
 
@@ -37,9 +37,23 @@ Canvas APIを使って、お絵描きアプリケーションを段階的に作�
 2. [マウスで線を描く](./docs/2-drawing/2-draw-line/README.md) - マウス操作による描画
 3. [画像をキャンバスに描く](./docs/2-drawing/3-put-image/README.md) - 画像の読み込みと描画
 
-### 第3章: スコアリング（準備中）
+### 第3章: OpenAI APIの利用
 
-※ 現在準備中です
+[📘 第3章を開く](./docs/3-open-ai/README.md)
+
+ブラウザから直接OpenAI APIを呼び出す方法について学びます。
+
+1. [OpenAI APIを呼びだす](./docs/3-open-ai/1-call-openai-api/README.md) - API呼び出しの基本
+2. [画像をリクエストに含む](./docs/3-open-ai/2-send-image/README.md) - 画像データの送信
+3. [JSONの構造を指定する](./docs/3-open-ai/3-specify-json-structure/README.md) - レスポンス形式の指定
+
+### 第4章: お絵かきの採点
+
+[📘 第4章を開く](./docs/4-scoring/README.md)
+
+OpenAI APIを使って描いた絵を採点する機能を実装します。
+
+1. [Canvasから画像を取り出して送信する](./docs/4-scoring/1-get-image-from-canvas/README.md) - 画像の取得と送信
 
 ## 作業フォルダの準備
 
@@ -69,7 +83,7 @@ Canvas APIを使って、お絵描きアプリケーションを段階的に作�
 - [CSS リファレンス](https://developer.mozilla.org/ja/docs/Web/CSS/Reference)
 - [Canvas API](https://developer.mozilla.org/ja/docs/Web/API/Canvas_API)
 
-## まずは第1章から始めましょう！
+## まずは第1章から始めましょう!
 
 👉 [第1章: Webフロントエンドの基本](./docs/1-basic/README.md)
 
