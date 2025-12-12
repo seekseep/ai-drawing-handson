@@ -18,7 +18,7 @@ CSS を書くことで、HTMLの見た目を装飾することができます。
 ```html
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1 class="title">Hello World</h1>

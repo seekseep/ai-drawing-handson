@@ -13,9 +13,11 @@
     └── main.js
 ```
 
-# 数を増やす
+# ステップ1: 数を増やす
 
 ボタンを押すと数が増えていくカウンターアプリを作成します。
+
+[完成例](./examples/1/index.html)
 
 ## HTML
 `index.html` ファイルに以下の内容を書き込んで保存してください。
@@ -102,9 +104,11 @@ countDisplay.innerHTML = '<b>' + count + '</b>';
 
 [`<b />`](https://developer.mozilla.org/ja/docs/Web/HTML/Element/b) タグは文字を太字にするタグです。
 
-# 数を減らす
+# ステップ2: 数を減らす
 
 数が減るボタンを追加してみましょう。
+
+[完成例](./examples/2/index.html)
 
 ## HTML
 
@@ -148,9 +152,11 @@ decrementButton.addEventListener('click', () => {
 作成した `index.html` ファイルをブラウザで開いて、数が増えたり減ったりすることを確認してください。
 
 
-# 限度の設定
+# ステップ3: 限度の設定
 
 数が増えるボタンと減るボタンに限度を設定してみましょう。
+
+[完成例](./examples/3/index.html)
 
 JavaScriptファイルを以下のように書き換えて保存してください。
 
