@@ -38,8 +38,12 @@ CSS を書くことで、HTMLの見た目を装飾することができます。
 
 # ブラウザで確認
 
+[完成例](./examples/1/index.html)
+
 作成した `index.html` ファイルをブラウザで開いてください。
 "Hello World" の文字が赤く表示されていれば成功です。
+
+![CSSで装飾された表示例](./examples/1/screenshot.png)
 
 # CSS の構成
 

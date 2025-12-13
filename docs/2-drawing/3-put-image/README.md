@@ -148,6 +148,8 @@ fishImage.addEventListener('click', () => {
 3. 描画された画像の上から線を描けることを確認
 4. 消すボタンでキャンバスがクリアされることを確認
 
+![お絵描きアプリの動作](./examples/1/demo.gif)
+
 ## `ctx.drawImage()` について
 
 `ctx.drawImage()` メソッドは、画像をキャンバスに描画するためのメソッドです。

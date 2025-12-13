@@ -49,6 +49,12 @@ incrementButton.addEventListener('click', () => {
 
 ```
 
+## 動作確認
+
+作成した `index.html` ファイルをブラウザで開いて、ボタンをクリックすると数が増えることを確認してください。
+
+![カウンターの動作](./examples/1/demo.gif)
+
 ## 要素の取得
 
 `document.getElementById` を使ってHTMLの要素を取得しています。引数には取得したい要素の `id` 属性の値を指定します。
@@ -151,6 +157,8 @@ decrementButton.addEventListener('click', () => {
 
 作成した `index.html` ファイルをブラウザで開いて、数が増えたり減ったりすることを確認してください。
 
+![カウンターの動作（増減）](./examples/2/demo.gif)
+
 
 # ステップ3: 限度の設定
 
@@ -186,6 +194,8 @@ decrementButton.addEventListener('click', () => {
 ## 動作確認
 
 作成した `index.html` ファイルをブラウザで開いて、数が0未満や100超えないことを確認してください。
+
+![カウンターの動作（限度付き）](./examples/3/demo.gif)
 
 ## 応用課題
 

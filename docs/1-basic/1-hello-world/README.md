@@ -33,6 +33,8 @@ works の中に `hello-world` というフォルダを作成し、その中に `
 
 次に、"Hello World" を見出しとして表示してみましょう。`<h1>` タグを使います。
 
+[完成例](./examples/1/index.html)
+
 ```html
 <html>
   <body>
@@ -42,6 +44,8 @@ works の中に `hello-world` というフォルダを作成し、その中に `
 ```
 
 文字が大きく表示されます。このように、HTMLではタグを使って文字の意味や役割を指定します。
+
+![Hello Worldの表示例](./examples/1/screenshot.png)
 
 # 他のHTMLタグ
 
