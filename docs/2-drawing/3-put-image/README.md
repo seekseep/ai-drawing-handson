@@ -160,4 +160,22 @@ ctx.drawImage(image, x, y, width, height);
 - `x`, `y`: キャンバス上の描画開始位置
 - `width`, `height`: 描画する画像のサイズ
 
+# 応用課題
 
+## 線の太さ
+
+ペンの太さを変更する機能を追加してください。
+
+### ヒント
+
+- https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/input/range
+- https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D/lineWidth
+
+## スタンプ
+
+クリックした場所に絵文字を配置する機能を追加してください。
+
+### ヒント
+
+- https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/select
+- https://developer.mozilla.org/ja/docs/Web/API/CanvasRenderingContext2D/fillText

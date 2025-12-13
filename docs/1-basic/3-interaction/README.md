@@ -187,6 +187,12 @@ decrementButton.addEventListener('click', () => {
 
 作成した `index.html` ファイルをブラウザで開いて、数が0未満や100超えないことを確認してください。
 
+## 応用課題
+
+カウントした数字に応じて文字の大きさと色を変えてください。
+
+[style プロパティの設定](https://developer.mozilla.org/ja/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information#style_%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3%E3%81%AE%E8%A8%AD%E5%AE%9A)
+
 # まとめ
 
 今回はJavaScriptを使って簡単なカウンターアプリを作成しました。JavaScriptを使うことで、Webページにインタラクションを追加することができます。
@@ -195,6 +201,6 @@ decrementButton.addEventListener('click', () => {
 
 この章ではHTMLとCSSとJavaScriptの基本的な書き方を学びました。
 
-最近は React や Vue.js などのフレームワークがよく使われますがこれらも最終的にはHTML、CSS、JavaScriptで動いています。
+最近は React や Vue.js, Svelte などのフレームワークがよく使われますがこれらも最終的にはHTML、CSS、JavaScriptで動いています。
 
 基本的な技術を学ぶことでWebフロントエンドの理解が深まると思います。
