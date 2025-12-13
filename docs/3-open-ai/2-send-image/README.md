@@ -2,6 +2,23 @@
 
 OpenAI APIのリクエストに画像を含める方法を学びます。
 
+# ファイルの用意
+
+次のように `index.html`、`style.css`、`main.js`、そして画像ファイル（`dog.png`、`bird.png`、`fish.png`）を作成してください。
+
+```
+./works
+└── send-image
+    ├── index.html
+    ├── style.css
+    ├── main.js
+    ├── dog.png
+    ├── bird.png
+    └── fish.png
+```
+
+画像ファイルは、[docs/3-open-ai/assets/](../assets/) からコピーするか、自分で用意した画像を使用してください。
+
 ## 何を作るか
 
 画像をクリックすると、その画像をOpenAI APIに送信し、AIからの画像説明を表示するアプリケーションを作成します。

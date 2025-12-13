@@ -2,6 +2,23 @@
 
 すでにある画像を直接キャンバスに描くこともできます。このセクションでは、前のステップで作成したお絵描きアプリに画像挿入機能を追加します。
 
+# ファイルの用意
+
+次のように `index.html`、`style.css`、`main.js`、そして画像ファイル（`dog.png`、`bird.png`、`fish.png`）を作成してください。
+
+```
+./works
+└── put-image
+    ├── index.html
+    ├── style.css
+    ├── main.js
+    ├── dog.png
+    ├── bird.png
+    └── fish.png
+```
+
+画像ファイルは、[docs/2-drawing/assets/](../assets/) からコピーするか、自分で用意した画像を使用してください。
+
 実装例: [./examples/1/](./examples/1/)
 
 ## 何を作るか

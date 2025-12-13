@@ -2,6 +2,18 @@
 
 OpenAI APIのレスポンスで返されるJSONの構造を指定する方法を学びます。
 
+# ファイルの用意
+
+次のように `index.html`、`style.css`、`main.js` の3つのファイルを作成してください。
+
+```
+./works
+└── specify-json-structure
+    ├── index.html
+    ├── style.css
+    └── main.js
+```
+
 ## 何を作るか
 
 Structured Outputs機能を使って、AIが返すレスポンスのJSON構造を指定します。これにより、常に一貫したデータ構造で結果を受け取ることができます。

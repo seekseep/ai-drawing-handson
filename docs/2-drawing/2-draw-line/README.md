@@ -2,6 +2,18 @@
 
 このセクションでは、段階的にお絵描きアプリケーションを作成していきます。
 
+# ファイルの用意
+
+次のように `index.html`、`style.css`、`main.js` の3つのファイルを作成してください。
+
+```
+./works
+└── draw-line
+    ├── index.html
+    ├── style.css
+    └── main.js
+```
+
 ## ステップ1: マウスを動かすと線が描かれる
 
 実装例: [./examples/1/](./examples/1/)

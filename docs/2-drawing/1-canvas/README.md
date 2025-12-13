@@ -4,6 +4,16 @@ HTML5のCanvas APIを使って、図形を描画する基本的な方法を学�
 
 # ファイルの用意
 
+次のように `index.html`、`style.css`、`main.js` の3つのファイルを作成してください。
+
+```
+./works
+└── canvas
+    ├── index.html
+    ├── style.css
+    └── main.js
+```
+
 まず、HTMLファイルにCanvas要素を追加します。
 
 ```html

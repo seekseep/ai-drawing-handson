@@ -2,6 +2,30 @@
 
 Canvasに描画した内容を画像として取り出し、OpenAI APIに送信する方法を学びます。
 
+# ファイルの用意
+
+次のように `index.html`、`style.css`、`main.js`、そして画像ファイル（`dog.png`、`bird.png`、`fish.png`）を作成してください。
+
+```
+./works
+└── get-image-from-canvas
+    ├── index.html
+    ├── style.css
+    ├── main.js
+    ├── dog.png
+    ├── bird.png
+    └── fish.png
+```
+
+ファイルの準備方法は以下のいずれかを選んでください:
+
+1. **[docs/2-drawing/3-put-image/examples/1/](../../2-drawing/3-put-image/examples/1/) からコピーする**
+   - すべてのファイル（`index.html`、`style.css`、`main.js`）をコピーして、このセクションで必要な機能を追加していきます
+   - 画像ファイルは [docs/2-drawing/assets/](../../2-drawing/assets/) からコピーしてください
+
+2. **前の節で作成した自分のファイルを使用する**
+   - [docs/2-drawing/3-put-image](../../2-drawing/3-put-image/) の手順で作成した自分のファイルを `./works/get-image-from-canvas/` にコピーして使用できます
+
 ## 実装例
 
 実装例: [./examples/1/](./examples/1/)
@@ -12,21 +36,9 @@ Canvasに描画した内容を画像として取り出し、OpenAI APIに送信�
 
 ## 実装手順
 
-### 1. ベースとなるファイルをコピーする
+### 1. HTMLファイルを修正する ([index.html](./examples/1/index.html))
 
-まず、[docs/2-drawing/3-put-image/examples/1](../../2-drawing/3-put-image/examples/1) のファイルを `examples/1/` にコピーします。
-
-以下のファイルをコピーしてください:
-- `index.html`
-- `main.js`
-- `style.css`
-- `dog.png`
-- `bird.png`
-- `fish.png`
-
-### 2. HTMLファイルを修正する ([index.html](./examples/1/index.html))
-
-コピーしたHTMLファイルに、評価ボタンと結果表示エリアを追加します。
+用意したHTMLファイルに、評価ボタンと結果表示エリアを追加します。
 
 ```html
 <html>
@@ -59,9 +71,9 @@ Canvasに描画した内容を画像として取り出し、OpenAI APIに送信�
 - 「評価してもらう」ボタンを追加
 - 評価結果を表示するエリア（`#result`）を追加
 
-### 3. JavaScriptファイルを修正する ([main.js](./examples/1/main.js))
+### 2. JavaScriptファイルを修正する ([main.js](./examples/1/main.js))
 
-コピーしたJavaScriptファイルに、評価機能を追加します。
+用意したJavaScriptファイルに、評価機能を追加します。
 
 ```javascript
 const canvas = document.getElementById('canvas');
