@@ -72,6 +72,13 @@ CSSを完全に理解しているひとは次のサイトで腕試しをして�
 
 https://cssbattle.dev/
 
+# View Transition API
+
+CSSにはView Transition APIという新しい機能があります。これを使うとページ遷移時にアニメーションを簡単に追加できます。まだ対応しているブラウザが限られていますが、興味がある方は以下のドキュメントを参照してください。
+
+- https://developer.mozilla.org/ja/docs/Web/CSS/Reference/At-rules/@view-transition
+- https://ics.media/entry/230510/
+
 # まとめ
 
 今回はCSSを使ってHTMLの見た目を装飾する方法を学びました。 CSSには多くのプロパティがあり、様々な装飾が可能です。
